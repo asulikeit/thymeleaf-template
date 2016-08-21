@@ -1,0 +1,16 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Thymeleaf layout test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="./statics/scripts/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Welcome static page</h1>
+	<div th:replace="pages/footer :: footer">&copy; 2014 The Static Templates</div>
+</body>
+<script src="./statics/scripts/jquery-3.1.0.min.js"></script>
+<script src="./statics/scripts/js/bootstrap.min.js"></script>
+</html>
